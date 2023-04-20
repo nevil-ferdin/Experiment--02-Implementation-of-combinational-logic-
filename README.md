@@ -3,20 +3,24 @@ Implementation of combinational logic gates
  
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
- F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-F2=xy’z+x’y’z+w’xy+wx’y+wxy
++ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
++ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+### Hardware – PCs, Cyclone II , USB flasher
+### Software – Quartus prime
 
 
 ## Theory
- 
+* A combinational logic circuit implement logical functions where its outputs depend only on its current combination of input values. On the other hand sequential circuits, unlike combinational logic, have state or memory.
+* Some logic operations may require more than one logic gate. Different combinations of gates are designed for different operations. The behaviour of the combined logic gates can be determined by constructing a truth table of the combined gates.
 
 ## Logic Diagram
+
+![Combinational-Logic-Circuits-1](https://user-images.githubusercontent.com/115524975/233445547-da8f5b1f-2dbb-49ac-a548-3e877a65d354.png)
+
 ## Procedure
 1. Create a project with required entities.
 2. Create a module along with respective file name.
@@ -28,7 +32,8 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ```verilog
-PROGRAM FOR F1
+Program For F1
+
 module combilogic(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -43,7 +48,8 @@ endmodule
 
 ```
 ```verilog
-PROGRAM FOR F2
+Program For F2
+
 module combilogic(W,X,Y,Z,F);
 input W,X,Y,Z;
 output F;
@@ -64,14 +70,14 @@ RegisterNumber : 212222050041
 ## RTL realization
 
 ## Output:
-## F1
+### Output for F1
 ### RTL
 ![f1rtl](https://user-images.githubusercontent.com/115524975/233157599-8d141b96-5272-412e-9a23-fab91073abd4.png)
 
-###Timing Diagram
+### Timing Diagram
 ![f1td](https://user-images.githubusercontent.com/115524975/233157616-2af36321-5caf-4354-8c44-6b29ea2d677a.png)
 
-## F2
+### Output for F2
 ### RTL
 ![f2rtl](https://user-images.githubusercontent.com/115524975/233157641-f5367b9b-0bf7-4323-beec-af5fe8b289b6.png)
 
