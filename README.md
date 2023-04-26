@@ -67,17 +67,17 @@ Program to implement the given logic function and to verify its operations in qu
 Developed by : P.Nevil Joe Ferdin
 RegisterNumber : 212222050041
 ```
-## RTL realization
+
 
 ## Output:
-### Output for F1
+## First Question
 ### RTL
 ![f1rtl](https://user-images.githubusercontent.com/115524975/233157599-8d141b96-5272-412e-9a23-fab91073abd4.png)
 
 ### Timing Diagram
 ![f1td](https://user-images.githubusercontent.com/115524975/233157616-2af36321-5caf-4354-8c44-6b29ea2d677a.png)
 
-### Output for F2
+## Second Question
 ### RTL
 ![f2rtl](https://user-images.githubusercontent.com/115524975/233157641-f5367b9b-0bf7-4323-beec-af5fe8b289b6.png)
 
